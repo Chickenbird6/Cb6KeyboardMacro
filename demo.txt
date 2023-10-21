@@ -1,0 +1,26 @@
+version 1.0
+# use a hashtag to add a comment
+# tap presses a key and releases it quickly
+# syntax:
+# tap <character>
+tap t
+tap e
+tap s
+tap SPACE
+tap t
+tap ENTER
+tap CTRL
+# key <character> down simulates pressing and holding a key
+# use key <character> up to release a key
+# syntax:
+# key <character> <down/up>
+key w down
+# sleep adds a delay until the next action
+# syntax
+# sleep <float >= 0>
+sleep 1.5
+key w up
+# type <String> lets you type a string of any length in one line
+# syntax:
+# type <String>
+type This is lets you type a string of any length, it allows punctuation too!

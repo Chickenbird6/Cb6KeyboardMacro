@@ -1,0 +1,7 @@
+version 1.0
+loops=1
+filename=macro.txt
+loggingEnabled=True
+loopForever=False
+loopDelay=1
+startDelay=5
